@@ -5,6 +5,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './components/home';
 import Profile from './components/profile';
 import About from './components/about';
+import Detail from './components/details';
+import Form from './components/form';
 
 
 const Stack = createNativeStackNavigator();
@@ -23,6 +25,16 @@ const screens = [
         name: 'About',
         component: About,
         key: 3,
+    },
+    { 
+        name: 'Details',
+        component: Detail,
+        key: 4,
+    },
+    {
+        name: 'Form',
+        component: Form,
+        key: 5,
     }
 ]
 
